@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: ["s3-inventorymanagement.s3.us-east-2.amazonaws.com"],
+    domains: [
+      "s3-inventorymanagement.s3.us-east-2.amazonaws.com",
+      "s3.us-east-2.amazonaws.com",
+    ],
   },
 };
 
